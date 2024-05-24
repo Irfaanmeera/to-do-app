@@ -1,0 +1,65 @@
+body {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/963/036/original/cartoon-boy-happy-while-working-vector.jpg);
+  background-size: cover;
+}
+.container {
+  width: 40%;
+  margin-top: 50px;
+  background-color: rgb(206, 213, 254);
+  border: none;
+  padding: 30px;
+  border-radius: 10px;
+}
+h2 {
+  text-align: center;
+  color: rgb(7, 44, 231);
+}
+.form-group {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  width: auto;
+}
+button {
+  margin-left: 10px;
+  background-color: transparent;
+  color: rgb(18, 7, 231);
+  border-radius: 5px;
+  padding: 5px;
+  width: 20%;
+  font-weight: bold;
+  cursor: pointer;
+  border-color: rgb(7, 21, 210);
+  box-shadow: 0px 0px 2px 2px rgba(3, 53, 128, 0.5);
+}
+.list {
+  margin-top: 30px !important;
+}
+.list li {
+  margin-bottom: 15px;
+  margin-left: -12px;
+  background-color: rgb(62, 84, 223);
+  color: rgb(247, 244, 250);
+  border-color: rgb(247, 149, 240);
+  box-shadow: 0px 0px 2px 2px rgba(197, 119, 249, 0.5);
+  list-style-type: none;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 17px;
+}
+.list-items {
+  display: flex;
+}
+.list-items .list-item-list {
+  flex: 1;
+}
+.list-items .list-item-icons {
+  padding-left: 7px;
+  font-size: 27px;
+  cursor: pointer;
+}
+
+#list-item {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
